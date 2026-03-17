@@ -13,5 +13,7 @@ export const defaultConfig: AppConfig = {
   rules: [
     { id: 'rule1', text: 'Most obvious stock atm?' },
     { id: 'rule2', text: 'Breakout or bailout?' },
+    { id: 'rule3', text: 'Adequate position size?' },
+    { id: 'rule4', text: 'Stop loss respected?' },
   ],
 };
