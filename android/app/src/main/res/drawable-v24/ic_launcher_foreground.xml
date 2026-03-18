@@ -3,23 +3,20 @@
     android:height="108dp"
     android:viewportHeight="108"
     android:viewportWidth="108">
-    <!-- Safe zone center 66x66 (x=21..87, y=21..87). Pattern fits ~30-82 x, ~30-78 y -->
+    <!-- +6 offset for adaptive safe zone. Fat bold candles. -->
     <!-- Pole candle 1 -->
-    <path android:pathData="M32,78 L32,64" android:strokeColor="#2ea043" android:strokeWidth="3" android:fillColor="#00000000"/>
-    <path android:pathData="M27,66 L37,66 L37,76 L27,76 Z" android:fillColor="#2ea043"/>
+    <path android:pathData="M30,78 L30,60" android:strokeColor="#2ea043" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M24,62 L36,62 L36,76 L24,76 Z" android:fillColor="#2ea043"/>
     <!-- Pole candle 2 -->
-    <path android:pathData="M43,70 L43,50" android:strokeColor="#2ea043" android:strokeWidth="3" android:fillColor="#00000000"/>
-    <path android:pathData="M38,53 L48,53 L48,67 L38,67 Z" android:fillColor="#2ea043"/>
+    <path android:pathData="M44,68 L44,46" android:strokeColor="#2ea043" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M38,49 L50,49 L50,65 L38,65 Z" android:fillColor="#2ea043"/>
     <!-- Red flag candle 1 -->
-    <path android:pathData="M54,50 L54,41" android:strokeColor="#da3633" android:strokeWidth="3" android:fillColor="#00000000"/>
-    <path android:pathData="M49,43 L59,43 L59,49 L49,49 Z" android:fillColor="#da3633"/>
+    <path android:pathData="M57,50 L57,40" android:strokeColor="#da3633" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M51,42 L63,42 L63,49 L51,49 Z" android:fillColor="#da3633"/>
     <!-- Red flag candle 2 -->
-    <path android:pathData="M63,53 L63,44" android:strokeColor="#da3633" android:strokeWidth="3" android:fillColor="#00000000"/>
-    <path android:pathData="M58,46 L68,46 L68,52 L58,52 Z" android:fillColor="#da3633"/>
-    <!-- Breakout candle 1 -->
-    <path android:pathData="M72,44 L72,32" android:strokeColor="#2ea043" android:strokeWidth="3" android:fillColor="#00000000"/>
-    <path android:pathData="M67,34 L77,34 L77,42 L67,42 Z" android:fillColor="#2ea043"/>
-    <!-- Breakout candle 2 -->
-    <path android:pathData="M81,38 L81,30" android:strokeColor="#2ea043" android:strokeWidth="3" android:fillColor="#00000000"/>
-    <path android:pathData="M76,31 L86,31 L86,37 L76,37 Z" android:fillColor="#2ea043"/>
+    <path android:pathData="M69,54 L69,44" android:strokeColor="#da3633" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M63,46 L75,46 L75,53 L63,53 Z" android:fillColor="#da3633"/>
+    <!-- Breakout candle -->
+    <path android:pathData="M82,44 L82,28" android:strokeColor="#2ea043" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M76,30 L88,30 L88,42 L76,42 Z" android:fillColor="#2ea043"/>
 </vector>
