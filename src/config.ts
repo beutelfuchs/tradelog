@@ -18,5 +18,6 @@ export const defaultConfig: AppConfig = {
     { id: 'rule4', text: 'Stop loss respected?' },
     { id: 'rule5', text: 'Strength / fomo visible?' },
     { id: 'rule6', text: 'Exited on direction change?' },
+    { id: 'rule7', text: 'Not emotionally hijacked?' },
   ],
 };
