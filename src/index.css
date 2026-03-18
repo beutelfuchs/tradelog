@@ -218,8 +218,6 @@ body {
 
 /* Focus Bar */
 .focus-bar {
-  position: sticky;
-  bottom: 0;
   background: var(--accent);
   color: #fff;
   padding: 10px 16px;
