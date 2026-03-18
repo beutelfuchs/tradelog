@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import { Capacitor } from '@capacitor/core';
+import { Filesystem, Directory } from '@capacitor/filesystem';
+import { Share } from '@capacitor/share';
 import type { AppConfig, DayLog } from '../types';
 
 interface Props {
@@ -59,15 +62,32 @@ export function ConfigMenu({ config, setConfig, allLogs, currentDay, setAllLogs,
     setEditText('');
   };
 
-  const exportData = () => {
+  const exportData = async () => {
     const data = { config, logs: [...allLogs, currentDay] };
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `tradelog-export-${new Date().toISOString().slice(0, 10)}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
+    const json = JSON.stringify(data, null, 2);
+    const filename = `tradelog-export-${new Date().toISOString().slice(0, 10)}.json`;
+
+    if (Capacitor.isNativePlatform()) {
+      const result = await Filesystem.writeFile({
+        path: filename,
+        data: json,
+        directory: Directory.Cache,
+      });
+      await Share.share({
+        title: 'TradeLog Export',
+        url: result.uri,
+      });
+    } else {
+      const blob = new Blob([json], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
   };
 
   const importData = (e: React.ChangeEvent<HTMLInputElement>) => {
