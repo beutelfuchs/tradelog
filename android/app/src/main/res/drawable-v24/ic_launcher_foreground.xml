@@ -3,24 +3,23 @@
     android:height="108dp"
     android:viewportHeight="108"
     android:viewportWidth="108">
-    <!-- Adaptive icon: 108x108 viewport, safe zone is center 66x66 (x=21..87, y=21..87) -->
-    <!-- Pattern compressed to fit within circular crop -->
+    <!-- Safe zone center 66x66 (x=21..87, y=21..87). Pattern fits ~30-82 x, ~30-78 y -->
     <!-- Pole candle 1 -->
-    <path android:pathData="M30,86 L30,68" android:strokeColor="#2ea043" android:strokeWidth="2.5" android:fillColor="#00000000"/>
-    <path android:pathData="M25,70 L35,70 L35,84 L25,84 Z" android:fillColor="#2ea043"/>
+    <path android:pathData="M32,78 L32,64" android:strokeColor="#2ea043" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <path android:pathData="M27,66 L37,66 L37,76 L27,76 Z" android:fillColor="#2ea043"/>
     <!-- Pole candle 2 -->
-    <path android:pathData="M42,76 L42,50" android:strokeColor="#2ea043" android:strokeWidth="2.5" android:fillColor="#00000000"/>
-    <path android:pathData="M37,54 L47,54 L47,72 L37,72 Z" android:fillColor="#2ea043"/>
+    <path android:pathData="M43,70 L43,50" android:strokeColor="#2ea043" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <path android:pathData="M38,53 L48,53 L48,67 L38,67 Z" android:fillColor="#2ea043"/>
     <!-- Red flag candle 1 -->
-    <path android:pathData="M54,50 L54,38" android:strokeColor="#da3633" android:strokeWidth="2.5" android:fillColor="#00000000"/>
-    <path android:pathData="M49,40 L59,40 L59,48 L49,48 Z" android:fillColor="#da3633"/>
+    <path android:pathData="M54,50 L54,41" android:strokeColor="#da3633" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <path android:pathData="M49,43 L59,43 L59,49 L49,49 Z" android:fillColor="#da3633"/>
     <!-- Red flag candle 2 -->
-    <path android:pathData="M64,54 L64,42" android:strokeColor="#da3633" android:strokeWidth="2.5" android:fillColor="#00000000"/>
-    <path android:pathData="M59,44 L69,44 L69,52 L59,52 Z" android:fillColor="#da3633"/>
+    <path android:pathData="M63,53 L63,44" android:strokeColor="#da3633" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <path android:pathData="M58,46 L68,46 L68,52 L58,52 Z" android:fillColor="#da3633"/>
     <!-- Breakout candle 1 -->
-    <path android:pathData="M74,44 L74,24" android:strokeColor="#2ea043" android:strokeWidth="2.5" android:fillColor="#00000000"/>
-    <path android:pathData="M69,28 L79,28 L79,42 L69,42 Z" android:fillColor="#2ea043"/>
+    <path android:pathData="M72,44 L72,32" android:strokeColor="#2ea043" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <path android:pathData="M67,34 L77,34 L77,42 L67,42 Z" android:fillColor="#2ea043"/>
     <!-- Breakout candle 2 -->
-    <path android:pathData="M84,32 L84,20" android:strokeColor="#2ea043" android:strokeWidth="2.5" android:fillColor="#00000000"/>
-    <path android:pathData="M79,22 L89,22 L89,30 L79,30 Z" android:fillColor="#2ea043"/>
+    <path android:pathData="M81,38 L81,30" android:strokeColor="#2ea043" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <path android:pathData="M76,31 L86,31 L86,37 L76,37 Z" android:fillColor="#2ea043"/>
 </vector>
