@@ -19,6 +19,8 @@ export interface Trade {
 export interface DayLog {
   date: string;
   remindersAcknowledged: boolean;
+  focusArea: string;
+  marketHot: boolean;
   trades: Trade[];
 }
 

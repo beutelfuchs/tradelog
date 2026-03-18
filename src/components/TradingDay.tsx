@@ -12,10 +12,11 @@ interface Props {
   allLogs: DayLog[];
   setAllLogs: (logs: DayLog[] | ((prev: DayLog[]) => DayLog[])) => void;
   complianceScore: number | null;
+  setMarketHot: (hot: boolean) => void;
   addTrade: (trade: { symbol: string; timestamp: string; ruleResults: Record<string, boolean> }) => void;
 }
 
-export function TradingDay({ dayLog, config, setConfig, allLogs, setAllLogs, complianceScore, addTrade }: Props) {
+export function TradingDay({ dayLog, config, setConfig, allLogs, setAllLogs, complianceScore, setMarketHot, addTrade }: Props) {
   const [showConfig, setShowConfig] = useState(false);
   const passedCount = dayLog.trades.filter((t) => t.passed).length;
 
@@ -28,15 +29,30 @@ export function TradingDay({ dayLog, config, setConfig, allLogs, setAllLogs, com
         </button>
       </header>
 
-      <ComplianceMeter
-        score={complianceScore}
-        passedCount={passedCount}
-        totalCount={dayLog.trades.length}
-      />
+      <div className="meter-row">
+        <ComplianceMeter
+          score={complianceScore}
+          passedCount={passedCount}
+          totalCount={dayLog.trades.length}
+        />
+        <button
+          className={`market-toggle ${dayLog.marketHot ? 'hot' : 'cold'}`}
+          onClick={() => setMarketHot(!dayLog.marketHot)}
+          title={dayLog.marketHot ? 'Market: Hot' : 'Market: Cold'}
+        >
+          {dayLog.marketHot ? 'HOT' : 'COLD'}
+        </button>
+      </div>
 
       <TradeInput rules={config.rules} onSubmit={addTrade} />
 
       <TradeList trades={dayLog.trades} rules={config.rules} />
+
+      {dayLog.focusArea && (
+        <div className="focus-bar">
+          <span className="focus-label">Focus:</span> {dayLog.focusArea}
+        </div>
+      )}
 
       {showConfig && (
         <ConfigMenu

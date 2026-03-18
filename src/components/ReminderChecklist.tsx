@@ -3,11 +3,12 @@ import type { Reminder } from '../types';
 
 interface Props {
   reminders: Reminder[];
-  onAcknowledge: () => void;
+  onAcknowledge: (focusArea: string) => void;
 }
 
 export function ReminderChecklist({ reminders, onAcknowledge }: Props) {
   const [checked, setChecked] = useState<Set<string>>(new Set());
+  const [focusArea, setFocusArea] = useState('');
 
   const toggle = (id: string) => {
     setChecked((prev) => {
@@ -34,7 +35,18 @@ export function ReminderChecklist({ reminders, onAcknowledge }: Props) {
           </li>
         ))}
       </ul>
-      <button className="btn-primary" disabled={!allChecked} onClick={onAcknowledge}>
+      <div className="focus-area">
+        <label htmlFor="focus">Today's focus area</label>
+        <input
+          id="focus"
+          type="text"
+          className="input-field"
+          placeholder="e.g. Only A+ setups, patience..."
+          value={focusArea}
+          onChange={(e) => setFocusArea(e.target.value)}
+        />
+      </div>
+      <button className="btn-primary" disabled={!allChecked} onClick={() => onAcknowledge(focusArea)}>
         Start Trading Day
       </button>
     </div>

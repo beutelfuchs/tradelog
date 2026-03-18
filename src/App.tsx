@@ -10,6 +10,7 @@ export default function App() {
     allLogs,
     setAllLogs,
     acknowledgeReminders,
+    setMarketHot,
     addTrade,
     complianceScore,
   } = useTradingDay();
@@ -26,6 +27,7 @@ export default function App() {
       allLogs={allLogs}
       setAllLogs={setAllLogs}
       complianceScore={complianceScore}
+      setMarketHot={setMarketHot}
       addTrade={addTrade}
     />
   );

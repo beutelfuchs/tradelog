@@ -9,11 +9,14 @@ export const defaultConfig: AppConfig = {
     { id: 'r5', text: 'Hard out on break of support level' },
     { id: 'r6', text: 'Giving back 50% profit → EoD' },
     { id: 'r7', text: 'Green 2 red → EoD' },
+    { id: 'r8', text: 'Check market trend (SPY)?' },
   ],
   rules: [
     { id: 'rule1', text: 'Most obvious stock atm?' },
     { id: 'rule2', text: 'Breakout or bailout?' },
     { id: 'rule3', text: 'Adequate position size?' },
     { id: 'rule4', text: 'Stop loss respected?' },
+    { id: 'rule5', text: 'Strength / fomo visible?' },
+    { id: 'rule6', text: 'Exited on direction change?' },
   ],
 };

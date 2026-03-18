@@ -8,7 +8,7 @@ function todayStr(): string {
 }
 
 function emptyDay(date: string): DayLog {
-  return { date, remindersAcknowledged: false, trades: [] };
+  return { date, remindersAcknowledged: false, focusArea: '', marketHot: false, trades: [] };
 }
 
 export function useTradingDay() {
@@ -30,8 +30,12 @@ export function useTradingDay() {
     setDayLog(emptyDay(today));
   }
 
-  const acknowledgeReminders = useCallback(() => {
-    setDayLog((prev) => ({ ...prev, remindersAcknowledged: true }));
+  const acknowledgeReminders = useCallback((focusArea: string) => {
+    setDayLog((prev) => ({ ...prev, remindersAcknowledged: true, focusArea }));
+  }, [setDayLog]);
+
+  const setMarketHot = useCallback((hot: boolean) => {
+    setDayLog((prev) => ({ ...prev, marketHot: hot }));
   }, [setDayLog]);
 
   const addTrade = useCallback(
@@ -61,6 +65,7 @@ export function useTradingDay() {
     allLogs,
     setAllLogs,
     acknowledgeReminders,
+    setMarketHot,
     addTrade,
     complianceScore,
   };
