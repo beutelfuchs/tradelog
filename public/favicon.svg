@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
 <rect width="96" height="96" rx="20" fill="#0d1117"/>
-<!-- Fat bold candles, tightly packed in center for circle crop -->
-<!-- Pole candle 1 -->
-<line x1="24" y1="72" x2="24" y2="54" stroke="#2ea043" stroke-width="4"/>
-<rect x="18" y="56" width="12" height="14" rx="2" fill="#2ea043"/>
-<!-- Pole candle 2 -->
-<line x1="38" y1="62" x2="38" y2="40" stroke="#2ea043" stroke-width="4"/>
-<rect x="32" y="43" width="12" height="16" rx="2" fill="#2ea043"/>
-<!-- Red flag candle 1 -->
-<line x1="51" y1="44" x2="51" y2="34" stroke="#da3633" stroke-width="4"/>
-<rect x="45" y="36" width="12" height="7" rx="2" fill="#da3633"/>
-<!-- Red flag candle 2 -->
-<line x1="63" y1="48" x2="63" y2="38" stroke="#da3633" stroke-width="4"/>
-<rect x="57" y="40" width="12" height="7" rx="2" fill="#da3633"/>
-<!-- Breakout candle -->
-<line x1="76" y1="38" x2="76" y2="22" stroke="#2ea043" stroke-width="4"/>
-<rect x="70" y="24" width="12" height="12" rx="2" fill="#2ea043"/>
+<!-- 5 candles evenly centered at x=48. Centers: 22, 35, 48, 61, 74 -->
+<!-- Pole candle 1 (green) -->
+<line x1="22" y1="72" x2="22" y2="56" stroke="#2ea043" stroke-width="4"/>
+<rect x="16" y="58" width="12" height="12" rx="2" fill="#2ea043"/>
+<!-- Pole candle 2 (green) -->
+<line x1="35" y1="62" x2="35" y2="40" stroke="#2ea043" stroke-width="4"/>
+<rect x="29" y="43" width="12" height="16" rx="2" fill="#2ea043"/>
+<!-- Flag candle 1 (red) -->
+<line x1="48" y1="44" x2="48" y2="34" stroke="#da3633" stroke-width="4"/>
+<rect x="42" y="36" width="12" height="7" rx="2" fill="#da3633"/>
+<!-- Flag candle 2 (red) - slightly lower -->
+<line x1="61" y1="48" x2="61" y2="38" stroke="#da3633" stroke-width="4"/>
+<rect x="55" y="40" width="12" height="7" rx="2" fill="#da3633"/>
+<!-- Breakout candle (green) -->
+<line x1="74" y1="38" x2="74" y2="22" stroke="#2ea043" stroke-width="4"/>
+<rect x="68" y="24" width="12" height="12" rx="2" fill="#2ea043"/>
 </svg>
