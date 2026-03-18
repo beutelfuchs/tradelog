@@ -44,13 +44,13 @@ export function TradingDay({ dayLog, config, setConfig, allLogs, setAllLogs, com
         </button>
       </div>
 
-      <TradeInput rules={config.rules} onSubmit={addTrade} />
-
       {dayLog.focusArea && (
         <div className="focus-bar">
           <span className="focus-label">Focus:</span> {dayLog.focusArea}
         </div>
       )}
+
+      <TradeInput rules={config.rules} onSubmit={addTrade} />
 
       <TradeList trades={dayLog.trades} rules={config.rules} />
 
