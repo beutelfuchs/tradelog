@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
 <rect width="96" height="96" rx="20" fill="#0d1117"/>
-<!-- 3 candles, tighter around center. x=28-68, y=30-66 -->
+<!-- 3 candles, very tight. x=30-66, y=34-62 -->
 <!-- Pole (green) -->
-<line x1="28" y1="66" x2="28" y2="42" stroke="#2ea043" stroke-width="5"/>
-<rect x="18" y="44" width="20" height="20" rx="3" fill="#2ea043"/>
+<line x1="30" y1="62" x2="30" y2="42" stroke="#2ea043" stroke-width="5"/>
+<rect x="22" y="44" width="16" height="16" rx="3" fill="#2ea043"/>
 <!-- Pullback (red) -->
-<line x1="48" y1="52" x2="48" y2="40" stroke="#da3633" stroke-width="5"/>
-<rect x="38" y="42" width="20" height="9" rx="3" fill="#da3633"/>
+<line x1="48" y1="50" x2="48" y2="40" stroke="#da3633" stroke-width="5"/>
+<rect x="40" y="42" width="16" height="7" rx="3" fill="#da3633"/>
 <!-- Breakout (green) -->
-<line x1="68" y1="44" x2="68" y2="28" stroke="#2ea043" stroke-width="5"/>
-<rect x="58" y="30" width="20" height="12" rx="3" fill="#2ea043"/>
+<line x1="66" y1="44" x2="66" y2="34" stroke="#2ea043" stroke-width="5"/>
+<rect x="58" y="35" width="16" height="8" rx="3" fill="#2ea043"/>
 </svg>
