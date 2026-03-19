@@ -1,16 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
 <rect width="96" height="96" rx="20" fill="#0d1117"/>
-<!-- 4 candles in 28x28 box centered at 48,48 -->
+<!-- 4 candles, flatter diagonal so corners stay within circle -->
+<!-- x=32-60, y=38-58 = 28x20 box centered at 46,48 -->
 <!-- Pole (green) -->
-<line x1="36" y1="62" x2="36" y2="48" stroke="#2ea043" stroke-width="4"/>
-<rect x="32" y="50" width="8" height="10" rx="1.5" fill="#2ea043"/>
+<line x1="34" y1="58" x2="34" y2="46" stroke="#2ea043" stroke-width="4"/>
+<rect x="30" y="48" width="8" height="8" rx="1.5" fill="#2ea043"/>
 <!-- Flag (red) -->
-<line x1="46" y1="52" x2="46" y2="42" stroke="#da3633" stroke-width="4"/>
-<rect x="42" y="44" width="8" height="6" rx="1.5" fill="#da3633"/>
+<line x1="43" y1="50" x2="43" y2="42" stroke="#da3633" stroke-width="4"/>
+<rect x="39" y="43" width="8" height="6" rx="1.5" fill="#da3633"/>
 <!-- Breakout 1 (green) -->
-<line x1="55" y1="44" x2="55" y2="36" stroke="#2ea043" stroke-width="4"/>
-<rect x="51" y="37" width="8" height="6" rx="1.5" fill="#2ea043"/>
+<line x1="52" y1="46" x2="52" y2="40" stroke="#2ea043" stroke-width="4"/>
+<rect x="48" y="41" width="8" height="4" rx="1.5" fill="#2ea043"/>
 <!-- Breakout 2 (green) -->
-<line x1="62" y1="40" x2="62" y2="34" stroke="#2ea043" stroke-width="4"/>
-<rect x="58" y="35" width="8" height="4" rx="1.5" fill="#2ea043"/>
+<line x1="60" y1="43" x2="60" y2="38" stroke="#2ea043" stroke-width="4"/>
+<rect x="56" y="38" width="8" height="4" rx="1.5" fill="#2ea043"/>
 </svg>
