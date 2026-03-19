@@ -1,13 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
 <rect width="96" height="96" rx="20" fill="#0d1117"/>
-<!-- Everything within 30x20 box centered at 48,48 -->
-<!-- Pole (green) -->
-<line x1="34" y1="58" x2="34" y2="44" stroke="#2ea043" stroke-width="6"/>
-<rect x="28" y="46" width="12" height="10" rx="2" fill="#2ea043"/>
-<!-- Pullback (red) -->
-<line x1="48" y1="50" x2="48" y2="42" stroke="#da3633" stroke-width="6"/>
-<rect x="42" y="43" width="12" height="6" rx="2" fill="#da3633"/>
-<!-- Breakout (green) -->
-<line x1="62" y1="44" x2="62" y2="36" stroke="#2ea043" stroke-width="6"/>
-<rect x="56" y="37" width="12" height="6" rx="2" fill="#2ea043"/>
+<!-- 6 candles in tight center box. x=26-70, y=34-62 -->
+<!-- Pole 1 (green) -->
+<line x1="26" y1="62" x2="26" y2="52" stroke="#2ea043" stroke-width="3"/>
+<rect x="22" y="53" width="8" height="8" rx="1.5" fill="#2ea043"/>
+<!-- Pole 2 (green) -->
+<line x1="35" y1="56" x2="35" y2="42" stroke="#2ea043" stroke-width="3"/>
+<rect x="31" y="44" width="8" height="10" rx="1.5" fill="#2ea043"/>
+<!-- Flag 1 (red) -->
+<line x1="44" y1="46" x2="44" y2="38" stroke="#da3633" stroke-width="3"/>
+<rect x="40" y="40" width="8" height="5" rx="1.5" fill="#da3633"/>
+<!-- Flag 2 (red) -->
+<line x1="52" y1="48" x2="52" y2="40" stroke="#da3633" stroke-width="3"/>
+<rect x="48" y="42" width="8" height="5" rx="1.5" fill="#da3633"/>
+<!-- Breakout 1 (green) -->
+<line x1="61" y1="42" x2="61" y2="34" stroke="#2ea043" stroke-width="3"/>
+<rect x="57" y="35" width="8" height="6" rx="1.5" fill="#2ea043"/>
+<!-- Breakout 2 (green) -->
+<line x1="70" y1="38" x2="70" y2="34" stroke="#2ea043" stroke-width="3"/>
+<rect x="66" y="34" width="8" height="4" rx="1.5" fill="#2ea043"/>
 </svg>
