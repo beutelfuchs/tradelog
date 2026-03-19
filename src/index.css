@@ -188,6 +188,27 @@ body {
   font-size: 1.3rem;
 }
 
+/* Day Review */
+.day-review {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.day-review-date {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.nav-arrow {
+  font-size: 1.6rem;
+  font-weight: 300;
+  width: 40px;
+  height: 40px;
+}
+.nav-arrow:disabled {
+  opacity: 0.2;
+  cursor: default;
+}
+
 /* Meter Row */
 .meter-row {
   display: flex;
