@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TradeLog Icon Proposals — Bull Flag / Micro Pullback</title>
+<style>
+  body { background: #1a1a2e; color: #e6edf3; font-family: system-ui, sans-serif; padding: 24px; }
+  h1 { text-align: center; margin-bottom: 8px; }
+  h2 { text-align: center; margin-bottom: 32px; color: #8b949e; font-weight: 400; font-size: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 28px; max-width: 1000px; margin: 0 auto; }
+  .icon-card { text-align: center; }
+  .icon-card svg { width: 112px; height: 112px; border-radius: 22px; box-shadow: 0 4px 16px rgba(0,0,0,0.6); }
+  .icon-card p { margin-top: 8px; font-size: 13px; color: #8b949e; }
+  .icon-card span { font-weight: bold; color: #58a6ff; }
+</style>
+</head>
+<body>
+<h1>TradeLog — Bull Flag Icons</h1>
+<h2>Micro pullback / bull flag pattern variations</h2>
+<div class="grid">
+
+<!-- 1. Classic bull flag - strong pole, tight flag, breakout -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<polyline points="14,74 22,72 28,68 32,50 36,30" fill="none" stroke="#2ea043" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="36,30 42,36 48,34 54,38 58,36" fill="none" stroke="#d29922" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="58,36 64,28 72,22 82,16" fill="none" stroke="#2ea043" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="82,16 74,16 78,22" fill="#2ea043"/>
+</svg>
+<p><span>#1</span> Classic breakout</p>
+</div>
+
+<!-- 2. Thick candle pole + descending channel flag -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<!-- pole candles -->
+<rect x="14" y="52" width="8" height="26" rx="2" fill="#2ea043"/>
+<rect x="24" y="36" width="8" height="22" rx="2" fill="#2ea043"/>
+<rect x="34" y="22" width="8" height="20" rx="2" fill="#2ea043"/>
+<!-- flag candles (pullback) -->
+<rect x="44" y="26" width="6" height="12" rx="1.5" fill="#da3633"/>
+<rect x="52" y="28" width="6" height="10" rx="1.5" fill="#da3633"/>
+<rect x="60" y="30" width="6" height="8" rx="1.5" fill="#da3633"/>
+<!-- breakout candle -->
+<rect x="68" y="16" width="8" height="20" rx="2" fill="#2ea043"/>
+<line x1="72" y1="16" x2="72" y2="12" stroke="#2ea043" stroke-width="2"/>
+</svg>
+<p><span>#2</span> Candle flag</p>
+</div>
+
+<!-- 3. Minimal line with shaded flag zone -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<path d="M12,72 L30,28" stroke="#2ea043" stroke-width="4" stroke-linecap="round"/>
+<path d="M30,28 L38,34 L46,32 L54,36 L60,34" fill="none" stroke="#8b949e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="28" y="26" width="34" height="14" rx="3" fill="#2ea043" opacity="0.12"/>
+<line x1="28" y1="28" x2="62" y2="28" stroke="#2ea043" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+<path d="M60,34 L74,18 L84,12" stroke="#2ea043" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<p><span>#3</span> Minimal + zone</p>
+</div>
+
+<!-- 4. Bold geometric - arrow pole + wedge flag -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<path d="M16,76 L40,24" stroke="#2ea043" stroke-width="6" stroke-linecap="round"/>
+<path d="M40,24 L40,38 L62,32 L62,24 Z" fill="#d29922" opacity="0.4" stroke="#d29922" stroke-width="1.5"/>
+<path d="M62,28 L82,12" stroke="#2ea043" stroke-width="6" stroke-linecap="round"/>
+<circle cx="82" cy="12" r="4" fill="#2ea043"/>
+</svg>
+<p><span>#4</span> Geometric wedge</p>
+</div>
+
+<!-- 5. Candlestick chart with wicks - realistic -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<!-- pole -->
+<line x1="18" y1="78" x2="18" y2="62" stroke="#2ea043" stroke-width="1.5"/><rect x="14" y="62" width="8" height="12" rx="1" fill="#2ea043"/>
+<line x1="30" y1="68" x2="30" y2="44" stroke="#2ea043" stroke-width="1.5"/><rect x="26" y="48" width="8" height="16" rx="1" fill="#2ea043"/>
+<line x1="42" y1="52" x2="42" y2="24" stroke="#2ea043" stroke-width="1.5"/><rect x="38" y="28" width="8" height="18" rx="1" fill="#2ea043"/>
+<!-- flag -->
+<line x1="52" y1="36" x2="52" y2="26" stroke="#da3633" stroke-width="1.5"/><rect x="49" y="28" width="6" height="6" rx="1" fill="#da3633"/>
+<line x1="60" y1="38" x2="60" y2="30" stroke="#da3633" stroke-width="1.5"/><rect x="57" y="31" width="6" height="5" rx="1" fill="#da3633"/>
+<!-- breakout -->
+<line x1="70" y1="34" x2="70" y2="14" stroke="#2ea043" stroke-width="1.5"/><rect x="66" y="16" width="8" height="14" rx="1" fill="#2ea043"/>
+<line x1="80" y1="20" x2="80" y2="8" stroke="#2ea043" stroke-width="1.5"/><rect x="76" y="10" width="8" height="8" rx="1" fill="#2ea043"/>
+</svg>
+<p><span>#5</span> Realistic candles</p>
+</div>
+
+<!-- 6. Smooth curve with pullback dip -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<path d="M10,76 C18,74 24,60 30,42 C34,30 36,26 38,24 C42,28 46,32 50,34 C54,36 56,34 58,32 C62,26 68,18 76,14 C80,12 84,10 86,10" fill="none" stroke="#2ea043" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M10,76 C18,74 24,60 30,42 C34,30 36,26 38,24 C42,28 46,32 50,34 C54,36 56,34 58,32 C62,26 68,18 76,14 C80,12 84,10 86,10 L86,80 L10,80 Z" fill="url(#g6)" opacity="0.3"/>
+<defs><linearGradient id="g6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2ea043"/><stop offset="100%" stop-color="#0d1117"/></linearGradient></defs>
+</svg>
+<p><span>#6</span> Smooth curve</p>
+</div>
+
+<!-- 7. Flag with volume bars -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<!-- volume bars at bottom -->
+<rect x="12" y="72" width="6" height="10" rx="1" fill="#2ea043" opacity="0.5"/>
+<rect x="22" y="66" width="6" height="16" rx="1" fill="#2ea043" opacity="0.5"/>
+<rect x="32" y="60" width="6" height="22" rx="1" fill="#2ea043" opacity="0.7"/>
+<rect x="42" y="70" width="5" height="12" rx="1" fill="#da3633" opacity="0.4"/>
+<rect x="50" y="72" width="5" height="10" rx="1" fill="#da3633" opacity="0.4"/>
+<rect x="58" y="73" width="5" height="9" rx="1" fill="#da3633" opacity="0.3"/>
+<rect x="66" y="58" width="6" height="24" rx="1" fill="#2ea043" opacity="0.7"/>
+<rect x="76" y="54" width="6" height="28" rx="1" fill="#2ea043" opacity="0.7"/>
+<!-- price line -->
+<polyline points="15,62 25,48 35,28 45,32 52,34 60,36 69,24 79,14" fill="none" stroke="#2ea043" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<p><span>#7</span> Flag + volume</p>
+</div>
+
+<!-- 8. Neon glow style -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<defs>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<polyline points="10,74 20,70 28,58 34,32 38,24" fill="none" stroke="#2ea043" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+<polyline points="38,24 44,30 50,28 55,32 60,30" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+<polyline points="60,30 68,20 78,14 86,10" fill="none" stroke="#2ea043" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+</svg>
+<p><span>#8</span> Neon glow</p>
+</div>
+
+<!-- 9. Thick stylized with checkmark at breakout -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<polyline points="10,78 18,74 26,64 32,42 38,26" fill="none" stroke="#2ea043" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="38,26 44,32 52,30 58,34" fill="none" stroke="#8b949e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="58,34 66,22 74,16" fill="none" stroke="#2ea043" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- small checkmark at breakout -->
+<circle cx="74" cy="16" r="10" fill="#1a7f37" opacity="0.8"/>
+<polyline points="68,16 72,20 80,12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<p><span>#9</span> Breakout check</p>
+</div>
+
+<!-- 10. Double pole flag - two micro pullbacks -->
+<div class="icon-card">
+<svg viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#0d1117"/>
+<!-- first pole -->
+<polyline points="8,78 14,72 20,58 26,44" fill="none" stroke="#2ea043" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- first flag -->
+<polyline points="26,44 30,48 34,46 38,50" fill="none" stroke="#d29922" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- second pole -->
+<polyline points="38,50 42,40 46,32 50,24" fill="none" stroke="#2ea043" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- second flag -->
+<polyline points="50,24 54,28 58,26 62,30" fill="none" stroke="#d29922" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- final breakout -->
+<polyline points="62,30 68,22 76,14 84,10" fill="none" stroke="#2ea043" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="84,10 76,12 80,18" fill="#2ea043"/>
+</svg>
+<p><span>#10</span> Double pullback</p>
+</div>
+
+</div>
+</body>
+</html>
