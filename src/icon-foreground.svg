@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
-<!-- 6 candles. x=34-74 (40px wide), y=34-74 (40px tall) = square centered at 54 -->
+<!-- 6 candles in 24x24 box centered at 54,54. x=42-66, y=42-66 -->
 <!-- Pole 1 (green) -->
-<line x1="36" y1="74" x2="36" y2="60" stroke="#2ea043" stroke-width="3"/>
-<rect x="32" y="62" width="8" height="10" rx="1.5" fill="#2ea043"/>
+<line x1="43" y1="66" x2="43" y2="58" stroke="#2ea043" stroke-width="3"/>
+<rect x="40" y="59" width="6" height="6" rx="1" fill="#2ea043"/>
 <!-- Pole 2 (green) -->
-<line x1="44" y1="66" x2="44" y2="46" stroke="#2ea043" stroke-width="3"/>
-<rect x="40" y="49" width="8" height="14" rx="1.5" fill="#2ea043"/>
+<line x1="49" y1="62" x2="49" y2="48" stroke="#2ea043" stroke-width="3"/>
+<rect x="46" y="50" width="6" height="10" rx="1" fill="#2ea043"/>
 <!-- Flag 1 (red) -->
-<line x1="52" y1="50" x2="52" y2="40" stroke="#da3633" stroke-width="3"/>
-<rect x="48" y="42" width="8" height="7" rx="1.5" fill="#da3633"/>
+<line x1="54" y1="50" x2="54" y2="44" stroke="#da3633" stroke-width="3"/>
+<rect x="51" y="45" width="6" height="4" rx="1" fill="#da3633"/>
 <!-- Flag 2 (red) -->
-<line x1="60" y1="54" x2="60" y2="44" stroke="#da3633" stroke-width="3"/>
-<rect x="56" y="46" width="8" height="7" rx="1.5" fill="#da3633"/>
+<line x1="59" y1="52" x2="59" y2="46" stroke="#da3633" stroke-width="3"/>
+<rect x="56" y="47" width="6" height="4" rx="1" fill="#da3633"/>
 <!-- Breakout 1 (green) -->
-<line x1="68" y1="46" x2="68" y2="34" stroke="#2ea043" stroke-width="3"/>
-<rect x="64" y="36" width="8" height="9" rx="1.5" fill="#2ea043"/>
+<line x1="64" y1="48" x2="64" y2="42" stroke="#2ea043" stroke-width="3"/>
+<rect x="61" y="43" width="6" height="4" rx="1" fill="#2ea043"/>
 <!-- Breakout 2 (green) -->
-<line x1="74" y1="40" x2="74" y2="34" stroke="#2ea043" stroke-width="3"/>
-<rect x="70" y="34" width="8" height="5" rx="1.5" fill="#2ea043"/>
+<line x1="68" y1="45" x2="68" y2="42" stroke="#2ea043" stroke-width="3"/>
+<rect x="65" y="42" width="6" height="3" rx="1" fill="#2ea043"/>
 </svg>
