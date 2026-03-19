@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
 <rect width="96" height="96" rx="20" fill="#0d1117"/>
-<!-- 6 candles in tight center box. x=26-70, y=34-62 -->
+<!-- 6 candles. x=28-68 (40px wide), y=28-68 (40px tall) = square -->
 <!-- Pole 1 (green) -->
-<line x1="26" y1="62" x2="26" y2="52" stroke="#2ea043" stroke-width="3"/>
-<rect x="22" y="53" width="8" height="8" rx="1.5" fill="#2ea043"/>
+<line x1="30" y1="68" x2="30" y2="54" stroke="#2ea043" stroke-width="3"/>
+<rect x="26" y="56" width="8" height="10" rx="1.5" fill="#2ea043"/>
 <!-- Pole 2 (green) -->
-<line x1="35" y1="56" x2="35" y2="42" stroke="#2ea043" stroke-width="3"/>
-<rect x="31" y="44" width="8" height="10" rx="1.5" fill="#2ea043"/>
+<line x1="38" y1="60" x2="38" y2="40" stroke="#2ea043" stroke-width="3"/>
+<rect x="34" y="43" width="8" height="14" rx="1.5" fill="#2ea043"/>
 <!-- Flag 1 (red) -->
-<line x1="44" y1="46" x2="44" y2="38" stroke="#da3633" stroke-width="3"/>
-<rect x="40" y="40" width="8" height="5" rx="1.5" fill="#da3633"/>
+<line x1="46" y1="44" x2="46" y2="34" stroke="#da3633" stroke-width="3"/>
+<rect x="42" y="36" width="8" height="7" rx="1.5" fill="#da3633"/>
 <!-- Flag 2 (red) -->
-<line x1="52" y1="48" x2="52" y2="40" stroke="#da3633" stroke-width="3"/>
-<rect x="48" y="42" width="8" height="5" rx="1.5" fill="#da3633"/>
+<line x1="54" y1="48" x2="54" y2="38" stroke="#da3633" stroke-width="3"/>
+<rect x="50" y="40" width="8" height="7" rx="1.5" fill="#da3633"/>
 <!-- Breakout 1 (green) -->
-<line x1="61" y1="42" x2="61" y2="34" stroke="#2ea043" stroke-width="3"/>
-<rect x="57" y="35" width="8" height="6" rx="1.5" fill="#2ea043"/>
+<line x1="62" y1="40" x2="62" y2="28" stroke="#2ea043" stroke-width="3"/>
+<rect x="58" y="30" width="8" height="9" rx="1.5" fill="#2ea043"/>
 <!-- Breakout 2 (green) -->
-<line x1="70" y1="38" x2="70" y2="34" stroke="#2ea043" stroke-width="3"/>
-<rect x="66" y="34" width="8" height="4" rx="1.5" fill="#2ea043"/>
+<line x1="68" y1="34" x2="68" y2="28" stroke="#2ea043" stroke-width="3"/>
+<rect x="64" y="28" width="8" height="5" rx="1.5" fill="#2ea043"/>
 </svg>
